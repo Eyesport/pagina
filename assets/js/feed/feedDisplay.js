@@ -9,16 +9,16 @@ aria.NoticiasData = [
     name: '<strong>Brillante Actuación de Lio Messi</strong>',
     id: 1,
     type:'El astro argentino del <strong>Futbol Club Barcelona, Lionel Messi</strong>, completó este domingo ante el Real Betis una esplendida actuación por el partido de Liga, donde junto a la genialidad de <strong>Luis Suárez<strong> lograron darle el triunfo al <strong>Barcelona 4 a 1;</strong> quienes son más lideres que nunca a pocas fechas de culminar el campeonato liguero.',
-    image: 'pages/futbol/imgfutbol/messi-betis.jpg',
-    audio: "pages/futbol/audiofutbol/messibetis.mp3",
+    image: '../pages/futbol/imgfutbol/messi-betis.jpg',
+    audio: "../pages/futbol/audiofutbol/messibetis.mp3",
     link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
   },
   {
     name: '<strong>La Vinotinto se Enfrentará Ante Argentina</strong>',
     id: 2,
     type: '<strong>El combinado Vinotinto</strong> se enfrentará este <strong>viernes 22 de marzo</strong> ante la Selección de Argentina en el <strong>Wanda Metropolitano</strong> en la ciudad de Madrid, estadio que le pertenece al <strong>Atlético de Madrid.</strong> Una selección argentina que reincorpora a Messi nuevamente a su grupo de convocados.',
-    image: 'pages/futbol/imgfutbol/Selevinotinto.jpg',
-    audio: "pages/futbol/audiofutbol/vzla-argentina.mp3",
+    image: '../pages/futbol/imgfutbol/Selevinotinto.jpg',
+    audio: "../pages/futbol/audiofutbol/vzla-argentina.mp3",
     link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
   },
   {
@@ -231,7 +231,7 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('tabindex', '0');
   feedItem.setAttribute('onfocus', "focusArticulo('" + itemData.audio + "')");
   feedItem.setAttribute('id', 'f' + itemData.id);
-  feedItem.setAttribute('onkeydown',"goToLink(event,'"+itemData.link+"')")
+  feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')")
 
 
   var itemDetails = document.createElement('div');
@@ -287,6 +287,7 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   var actions = document.createElement('div');
   actions.className = 'noticias-actions';
   actions.innerHTML = '<button class="bookmark-button">Leer Artículo</button><button class="bookmark-button">Escuchar Artículo</button>';
+  actions.setAttribute('href', itemData.link );
   feedItem.appendChild(actions);
 
   return feedItem;

@@ -3,7 +3,7 @@ menubar.init();
 
 //beisbol
 function focusBeisbol(){
-    var sonido = new Audio('assets/sonidos/Beisbol.mp3');
+    var sonido = new Audio('../assets/sonidos/Beisbol.mp3');
     sonido.play();
     $(".pelota_beisbol").show();
 }
@@ -13,7 +13,7 @@ function focusOutBeisbol(){
 }
 //submenu
 function focus(){
-    var sonido = new Audio('assets/sonidos/Beisbol.mp3');
+    var sonido = new Audio('../assets/sonidos/Beisbol.mp3');
     sonido.play();
     $(".pelota_").show();
 }
@@ -24,7 +24,7 @@ function focusOut(){
 //copiar
 //nacional
 function focusNacional(){
-    var sonido = new Audio('pages/beisbol/audiobeisbol/beisbolnacional.mp3');
+    var sonido = new Audio('../pages/beisbol/audiobeisbol/beisbolnacional.mp3');
     sonido.play();
     $(".pelota_nacional").show();
 }
@@ -34,7 +34,7 @@ function focusOutNacional(){
 }
 //internacional
 function focusInternacional(){
-    var sonido = new Audio('pages/beisbol/audiobeisbol/beisbolinternacional.mp3');
+    var sonido = new Audio('../pages/beisbol/audiobeisbol/beisbolinternacional.mp3');
     sonido.play();
     $(".pelota_internacional").show();
 }
@@ -44,7 +44,7 @@ function focusOutInternacional(){
 }
 //mlb
 function focusMlb(){
-    var sonido = new Audio('pages/beisbol/audiobeisbol/mlb.mp3');
+    var sonido = new Audio('../pages/beisbol/audiobeisbol/mlb.mp3');
     sonido.play();
     $(".pelota_MLB").show();
 }
@@ -54,7 +54,7 @@ function focusOutMlb(){
 }
 //serie del caribe
 function focusSerie(){
-    var sonido = new Audio('pages/beisbol/audiobeisbol/serie.mp3');
+    var sonido = new Audio('../pages/beisbol/audiobeisbol/serie.mp3');
     sonido.play();
     $(".pelota_serie").show();
 }
@@ -64,7 +64,7 @@ function focusOutSerie(){
 }
 // futbol
 function focusFutbol(){
-    var sonido = new Audio('assets/sonidos/Futbol.mp3');
+    var sonido = new Audio('../assets/sonidos/Futbol.mp3');
     sonido.play();
     $(".pelota_futbol").show();
 }
@@ -74,7 +74,7 @@ function focusOutFutbol(){
 }
 //nacional
 function focusFnacional(){
-    var sonido = new Audio('pages/futbol/audiofutbol/anacional.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/anacional.mp3');
     sonido.play();
     $(".pelota_fnacional").show();
 }
@@ -84,7 +84,7 @@ function focusOutFnacional(){
 }
 //champions
 function focuschampions(){
-    var sonido = new Audio('pages/futbol/audiofutbol/achampions.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/achampions.mp3');
     sonido.play();
     $(".pelota_champions").show();
 }
@@ -94,7 +94,7 @@ function focusOutchampions(){
 }
 //la liga
 function focusespanola(){
-    var sonido = new Audio('pages/futbol/audiofutbol/aespanol.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/aespanol.mp3');
     sonido.play();
     $(".pelota_espanola").show();
 }
@@ -104,7 +104,7 @@ function focusOutespanola(){
 }
 //bundesliga
 function focusalemana(){
-    var sonido = new Audio('pages/futbol/audiofutbol/aaleman.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/aaleman.mp3');
     sonido.play();
     $(".pelota_alemana").show();
 }
@@ -114,7 +114,7 @@ function focusOutalemana(){
 }
 //serie a
 function focusitaliana(){
-    var sonido = new Audio('pages/futbol/audiofutbol/aitalia.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/aitalia.mp3');
     sonido.play();
     $(".pelota_italiana").show();
 }
@@ -124,7 +124,7 @@ function focusOutitaliana(){
 }
 //premier
 function focuspremier(){
-    var sonido = new Audio('pages/futbol/audiofutbol/aingles.mp3');
+    var sonido = new Audio('../pages/futbol/audiofutbol/aingles.mp3');
     sonido.play();
     $(".pelota_premier").show();
 }
@@ -135,7 +135,7 @@ function focusOutpremier(){
 
 //basket
 function focusBasket(){
-    var sonido = new Audio('assets/sonidos/Baloncesto.mp3');
+    var sonido = new Audio('../assets/sonidos/Baloncesto.mp3');
     sonido.play();
     $(".pelota_baloncesto").show();
 }
@@ -145,7 +145,7 @@ function focusOutBasket(){
 }
 //basket nacional
 function focusbnacional(){
-    var sonido = new Audio('pages/basquet/audiobasquet/baloncestonacional.mp3');
+    var sonido = new Audio('../pages/basquet/audiobasquet/baloncestonacional.mp3');
     sonido.play();
     $(".pelota_baloncestonacional").show();
 }
@@ -155,7 +155,7 @@ function focusOutbnacional(){
 }
 // internacional
 function focusnba(){
-    var sonido = new Audio('pages/basquet/audiobasquet/nba.mp3');
+    var sonido = new Audio('../pages/basquet/audiobasquet/nba.mp3');
     sonido.play();
     $(".pelota_nba").show();
 }
@@ -165,7 +165,7 @@ function focusOutnba(){
 }
 
 function focusInicio(){
-    var sonido = new Audio('assets/sonidos/inicio.mp3');
+    var sonido = new Audio('../assets/sonidos/inicio.mp3');
     sonido.play();
 }
 document.addEventListener("keydown", function(event) {

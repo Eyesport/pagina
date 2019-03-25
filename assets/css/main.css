@@ -91,7 +91,7 @@ ul[role="menubar"] {
 	.pelota_beisbol, .pelota_baloncesto, .pelota_futbol,
 	.pelota_nacional,.pelota_internacional,
 	.pelota_MLB,.pelota_serie,.pelota_baloncestonacional,.pelota_nba,.pelota_fnacional,
-	.pelota_espanola, .pelota_premier, .pelota_italiana, .pelota_champions,.pelota_alemana {
+	.pelota_espanola, .pelota_premier, .pelota_italiana, .pelota_champions,.pelota_alemana, .pelota_finternacional {
 		height: 25px;
 		display: none;
 	}

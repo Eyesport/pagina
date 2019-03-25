@@ -82,6 +82,16 @@ function focusFnacional(){
 function focusOutFnacional(){
     $(".pelota_fnacional").hide();
 }
+
+function focusfinternacional(){
+    var sonido = new Audio('../pages/futbol/audiofutbol/futbol-internacional.mp3');
+    sonido.play();
+    $(".pelota_finternacional").show();
+}
+
+function focusOutfinternacional(){
+    $(".pelota_finternacional").hide();
+}
 //champions
 function focuschampions(){
     var sonido = new Audio('../pages/futbol/audiofutbol/achampions.mp3');

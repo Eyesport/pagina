@@ -6,19 +6,19 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: '<strong>Brillante Actuación de Lio Messi</strong>',
+    name: '<strong>beisbolnacional</strong>',
     id: 1,
     type:'El astro argentino del <strong>Futbol Club Barcelona, Lionel Messi</strong>, completó este domingo ante el Real Betis una esplendida actuación por el partido de Liga, donde junto a la genialidad de <strong>Luis Suárez<strong> lograron darle el triunfo al <strong>Barcelona 4 a 1;</strong> quienes son más lideres que nunca a pocas fechas de culminar el campeonato liguero.',
-    image: 'pages/futbol/imgfutbol/messi-betis.jpg',
-    audio: "pages/futbol/audiofutbol/messibetis.mp3",
+    image: '../pages/futbol/imgfutbol/messi-betis.jpg',
+    audio: "../pages/futbol/audiofutbol/messibetis.mp3",
     link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
   },
   {
     name: '<strong>La Vinotinto se Enfrentará Ante Argentina</strong>',
     id: 2,
     type: '<strong>El combinado Vinotinto</strong> se enfrentará este <strong>viernes 22 de marzo</strong> ante la Selección de Argentina en el <strong>Wanda Metropolitano</strong> en la ciudad de Madrid, estadio que le pertenece al <strong>Atlético de Madrid.</strong> Una selección argentina que reincorpora a Messi nuevamente a su grupo de convocados.',
-    image: 'pages/futbol/imgfutbol/Selevinotinto.jpg',
-    audio: "pages/futbol/audiofutbol/vzla-argentina.mp3",
+    image: '../pages/futbol/imgfutbol/Selevinotinto.jpg',
+    audio: "../pages/futbol/audiofutbol/vzla-argentina.mp3",
     link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
   },
   {

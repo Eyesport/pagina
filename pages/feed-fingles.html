@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/png" href="../assets/img/bfutbol.png" />
+  <title>EyeSport</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/main.css" />
+
+  <!-- navbar -->
+  <script src="../assets/js/jquery.min.js"></script>
+  <script src="../assets/js/MenubarItemLinks.js"></script>
+  <script src="../assets/js/MenubarLinks.js"></script>
+  <script src="../assets/js/PopupMenuItemLinks.js"></script>
+  <script src="../assets/js/PopupMenuLinks.js"></script>
+  <!-- final navbar -->
+  <!-- feed -->
+  <script src="../assets/js/feed/utils.js" type="text/javascript"></script>
+  <link href="../assets/css/feed/feedDisplay.css" rel="stylesheet">
+  <script src="../assets/js/feed/feed.js" type="text/javascript"></script>
+  <script src="../assets/js/feed/feedDisplay.js"></script>
+  <script src="../assets/js/feed/main.js" type="text/javascript"></script>
+  <!--  final feed -->
+</head>
+
+<body>
+<header>
+                <nav aria-label="Categoria de deportes">
+                  <!-- home -->
+                  <ul id="menubar1" role="menubar" aria-label="Categoria de deportes">
+                    <li role="none" class="centrar_vertical">
+                      <a  id="inicio" class="logo" aria-haspopup="true" aria-expanded="false" onfocus="focusInicio()" onmouseover="focusInicio()" href="../index.html" tabindex="0">
+                        <img role="menuitem" src="../assets/img/logo.png" alt="EyeSport" height="50px">
+                      </a>
+                    </li>
+                    <!-- final home -->
+            
+                    <!-- beisbol -->
+                    <li role="none" class="centrar_vertical">
+                      <a role="menuitem" 
+                      onfocus="focusBeisbol()" 
+                      onmouseover="focusBeisbol()" 
+                      onfocusout="focusOutBeisbol()"
+                      onmouseout="focusOutBeisbol()" 
+                      aria-haspopup="true" 
+                      aria-expanded="false" 
+                        tabindex="-1">
+                        <img src="../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_beisbol">
+                        Béisbol
+                      </a>
+                      <ul role="menu" aria-label="beisbol nacional">
+                        <li role="none">
+                          <a role="menuitem" href="feed-beisbol-nacional.html" tabindex="-1"
+                          onfocus="focusNacional()" 
+                          onmouseover="focusNacional()" 
+                          onfocusout="focusOutNacional()"
+                          onmouseout="focusOutNacional()">
+                              <img src="../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_nacional">
+                            Nacional
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" 
+                          aria-haspopup="true" 
+                          aria-expanded="false" 
+                          onfocus="focusInternacional()" 
+                          onmouseover="focusInternacional()" 
+                          onfocusout="focusOutInternacional()"
+                          onmouseout="focusOutInternacional()"
+                          tabindex="-1">
+                              <img src="../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_internacional">
+                            Internacional
+                          </a>
+                          <!-- sublista beisbol internacional -->
+                          <ul role="menu" aria-label="beisbol internacional">
+                            <li role="none">
+                              <a role="menuitem" href="feed-mlb.html" 
+                              onfocus="focusMlb()" 
+                              onmouseover="focusMlb()" 
+                              onfocusout="focusOutMlb()"
+                              onmouseout="focusOutMlb()"
+                              tabindex="-1">
+                                  <img src="../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_MLB">
+                                MLB
+                              </a>
+                            </li>
+                            <li role="none">
+                              <a role="menuitem" href="feed-serie-del-caribe.html" tabindex="-1"
+                              onfocus="focusSerie()" 
+                              onmouseover="focusSerie()" 
+                              onfocusout="focusOutSerie()"
+                              onmouseout="focusOutSerie()">
+                                  <img src="../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_serie">
+                                Serie Del Caribe
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- final sublista beisbol internacional -->
+                      </ul>
+                    </li>
+                    <!-- final beisbol -->
+            
+                    <!-- baloncesto -->
+                    <li role="none">
+                      <a role="menuitem" aria-haspopup="true" 
+                      aria-expanded="false" onfocus="focusBasket()" 
+                      onmouseover="focusBasket()"onfocusout="focusOutBasket()" 
+                      onmouseout="focusOutBasket()"  tabindex="-1">
+                        <img src="../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_baloncesto">
+                        Baloncesto
+                      </a>
+                      <ul role="menu" aria-label="Baloncesto">
+                        <li role="none">
+                          <a role="menuitem" href="feed-baloncesto-nacional.html" tabindex="-1"
+                          onfocus="focusbnacional()" 
+                          onmouseover="focusbnacional()" 
+                          onfocusout="focusOutbnacional()"
+                          onmouseout="focusOutbnacional()">
+                          <img src="../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_baloncestonacional">
+                            Liga nacional
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" aria-label="NBA" href="feed-nba.html" tabindex="-1"
+                          onfocus="focusnba()" 
+                          onmouseover="focusnba()" 
+                          onfocusout="focusOutnba()"
+                          onmouseout="focusOutnba()">
+                          <img src="../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_nba">
+                            NBA
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- final baloncesto -->
+                    <li role="none">
+                      <a role="menuitem" aria-haspopup="true" aria-expanded="false" 
+                      onfocus="focusFutbol()" 
+                      onfocusout="focusOutFutbol()"
+                      onmouseover="focusFutbol()" 
+                      onmouseout="focusOutFutbol()" 
+                      href="futbol/futbol.html" tabindex="-1">
+                        <img src="../assets/img/bfutbol.png" class="pelota_futbol">
+                        Fútbol
+                      </a>
+                      <ul role="menu" aria-label="Futbol">
+                        <li role="none">
+                          <a role="menuitem" href="feed-fnacional.html" tabindex="-1"
+                          onfocus="focusFnacional()" 
+                          onfocusout="focusOutFnacional()"
+                          onmouseover="focusFnacional()" 
+                          onmouseout="focusOutFnacional()">
+                          <img src="../assets/img/bfutbol.png" class="pelota_fnacional">
+                            Fútbol nacional
+                          </a>
+                        </li>            <li role="none">
+                            <a role="menuitem" href="feed-finternacional.html" tabindex="-1"
+                            onfocus="focusfinternacional()" 
+                            onfocusout="focusOutfinternacional()"
+                            onmouseover="focusfinternacional()" 
+                            onmouseout="focusOutfinternacional()">
+                            <img src="../assets/img/bfutbol.png" class="pelota_finternacional">
+                              Fútbol Internacional
+                            </a>
+                          </li>
+                        <li role="none">
+                          <a role="menuitem" href="feed-fespanol.html" tabindex="-1"
+                          onfocus="focusespanola()" 
+                          onfocusout="focusOutespanola()"
+                          onmouseover="focusespanola()" 
+                          onmouseout="focusOutespanola()">
+                              <img src="../assets/img/bfutbol.png" class="pelota_espanola">
+                                Fútbol español
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="feed-fingles.html" tabindex="-1"
+                          onfocus="focuspremier()" 
+                          onfocusout="focusOutpremier()"
+                          onmouseover="focuspremier()" 
+                          onmouseout="focusOutpremier()">
+                              <img src="../assets/img/bfutbol.png" class="pelota_premier">
+                                Fútbol ingles
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="feed-faleman.html" tabindex="-1"
+                          onfocus="focusalemana()" 
+                          onfocusout="focusOutalemana()"
+                          onmouseover="focusalemana()" 
+                          onmouseout="focusOutalemana()">
+                              <img src="../assets/img/bfutbol.png" class="pelota_alemana">
+                                Fútbol aleman
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="feed-fitaliano.html" tabindex="-1"
+                          onfocus="focusitaliana()" 
+                          onfocusout="focusOutitaliana()"
+                          onmouseover="focusitaliana()" 
+                          onmouseout="focusOutitaliana()">
+                              <img src="../assets/img/bfutbol.png" class="pelota_italiana">
+                                Fútbol italiano
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="feed-champions.html" tabindex="-1"
+                          onfocus="focuschampions()" 
+                          onfocusout="focusOutchampions()"
+                          onmouseover="focuschampions()" 
+                          onmouseout="focusOutchampions()">
+                              <img src="../assets/img/bfutbol.png" class="pelota_champions">
+                                Champions league
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+</header>
+  <main>
+    <h2 style="text-align: center">Articulos Deportivos</h2>
+    <section id="main-content">
+      <div id="noticias-feed" role="feed">
+    </section>
+  </main>
+
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5c75dbaaa726ff2eea599d8e/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+  <div class="skype-button bubble" data-bot-id="EyeSport"></div>
+  <div class="skype-chat" data-bot-id="EyeSport"></div>
+
+</body>
+<script src="../assets/js/main.js"></script>
+<script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+</html>

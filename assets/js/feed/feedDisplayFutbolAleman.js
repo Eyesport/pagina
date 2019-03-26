@@ -115,7 +115,6 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('onclick',"goToLink(event,'" + itemData.link + "')");
 
 
-
   var itemDetails = document.createElement('div');
   itemDetails.className = 'noticias-details';
   var itemContent = '';

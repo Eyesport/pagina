@@ -231,7 +231,8 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('tabindex', '0');
   feedItem.setAttribute('onfocus', "focusArticulo('" + itemData.audio + "')");
   feedItem.setAttribute('id', 'f' + itemData.id);
-  feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')")
+  feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')");
+  feedItem.setAttribute('onclick',"goToLink(event,'" + itemData.link + "')");
 
 
   var itemDetails = document.createElement('div');
@@ -286,7 +287,7 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
 
   var actions = document.createElement('div');
   actions.className = 'noticias-actions';
-  actions.innerHTML = '<button class="bookmark-button">Leer Artículo</button><button class="bookmark-button">Escuchar Artículo</button>';
+  actions.innerHTML = '';
   actions.setAttribute('href', itemData.link );
   feedItem.appendChild(actions);
 

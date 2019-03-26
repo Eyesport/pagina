@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="shortcut icon" type="image/png" href="../../../assets/img/bfutbol.png" />
+  <title>EyeSport</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" media="screen" href="../../../assets/css/main.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="../../../assets/css/articulo.css" />
+  <!-- navbar -->
+  <script src="../../../assets/js/jquery.min.js"></script>
+  <script src="../../../assets/js/MenubarItemLinks.js"></script>
+  <script src="../../../assets/js/MenubarLinks.js"></script>
+  <script src="../../../assets/js/PopupMenuItemLinks.js"></script>
+  <script src="../../../assets/js/PopupMenuLinks.js"></script>
+  <!-- final navbar -->
+</head>
+
+<body>
+<header>
+                <nav aria-label="Categoria de deportes">
+                  <!-- home -->
+                  <ul id="menubar1" role="menubar" aria-label="Categoria de deportes">
+                    <li role="none" class="centrar_vertical">
+                      <a  id="inicio" class="logo" aria-haspopup="true" aria-expanded="false" onfocus="focusInicio()" onmouseover="focusInicio()" href="../../../index.html" tabindex="0">
+                        <img role="menuitem" src="../../../assets/img/logo.png" alt="EyeSport" height="50px">
+                      </a>
+                    </li>
+                    <!-- final home -->
+            
+                    <!-- beisbol -->
+                    <li role="none" class="centrar_vertical">
+                      <a role="menuitem" 
+                      onfocus="focusBeisbol()" 
+                      onmouseover="focusBeisbol()" 
+                      onfocusout="focusOutBeisbol()"
+                      onmouseout="focusOutBeisbol()" 
+                      aria-haspopup="true" 
+                      aria-expanded="false" 
+                        tabindex="-1">
+                        <img src="../../../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_beisbol">
+                        Béisbol
+                      </a>
+                      <ul role="menu" aria-label="beisbol nacional">
+                        <li role="none">
+                          <a role="menuitem" href="../../beisbol/feed-beisbol-nacional.html" tabindex="-1"
+                          onfocus="focusNacional()" 
+                          onmouseover="focusNacional()" 
+                          onfocusout="focusOutNacional()"
+                          onmouseout="focusOutNacional()">
+                              <img src="../../../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_nacional">
+                            Nacional
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" 
+                          aria-haspopup="true" 
+                          aria-expanded="false" 
+                          onfocus="focusInternacional()" 
+                          onmouseover="focusInternacional()" 
+                          onfocusout="focusOutInternacional()"
+                          onmouseout="focusOutInternacional()"
+                          tabindex="-1">
+                              <img src="../../../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_internacional">
+                            Internacional
+                          </a>
+                          <!-- sublista beisbol internacional -->
+                          <ul role="menu" aria-label="beisbol internacional">
+                            <li role="none">
+                              <a role="menuitem" href="../../beisbol/feed-mlb.html" 
+                              onfocus="focusMlb()" 
+                              onmouseover="focusMlb()" 
+                              onfocusout="focusOutMlb()"
+                              onmouseout="focusOutMlb()"
+                              tabindex="-1">
+                                  <img src="../../../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_MLB">
+                                MLB
+                              </a>
+                            </li>
+                            <li role="none">
+                              <a role="menuitem" href="../../beisbol/feed-serie-del-caribe.html" tabindex="-1"
+                              onfocus="focusSerie()" 
+                              onmouseover="focusSerie()" 
+                              onfocusout="focusOutSerie()"
+                              onmouseout="focusOutSerie()">
+                                  <img src="../../../assets/img/bbeisbol.png" alt="Pelota de beisbol" class="pelota_serie">
+                                Serie Del Caribe
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <!-- final sublista beisbol internacional -->
+                      </ul>
+                    </li>
+                    <!-- final beisbol -->
+            
+                    <!-- baloncesto -->
+                    <li role="none">
+                      <a role="menuitem" aria-haspopup="true" 
+                      aria-expanded="false" onfocus="focusBasket()" 
+                      onmouseover="focusBasket()"onfocusout="focusOutBasket()" 
+                      onmouseout="focusOutBasket()"  tabindex="-1">
+                        <img src="../../../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_baloncesto">
+                        Baloncesto
+                      </a>
+                      <ul role="menu" aria-label="Baloncesto">
+                        <li role="none">
+                          <a role="menuitem" href="../../basquet/feed-baloncesto-nacional.html" tabindex="-1"
+                          onfocus="focusbnacional()" 
+                          onmouseover="focusbnacional()" 
+                          onfocusout="focusOutbnacional()"
+                          onmouseout="focusOutbnacional()">
+                          <img src="../../../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_baloncestonacional">
+                            Liga Nacional
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" aria-label="NBA" href="../../basquet/feed-nba.html" tabindex="-1"
+                          onfocus="focusnba()" 
+                          onmouseover="focusnba()" 
+                          onfocusout="focusOutnba()"
+                          onmouseout="focusOutnba()">
+                          <img src="../../../assets/img/bbasquet.png" alt="pelota de baloncesto" class="pelota_nba">
+                            NBA
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <!-- final baloncesto -->
+                    <li role="none">
+                      <a role="menuitem" aria-haspopup="true" aria-expanded="false" 
+                      onfocus="focusFutbol()" 
+                      onfocusout="focusOutFutbol()"
+                      onmouseover="focusFutbol()" 
+                      onmouseout="focusOutFutbol()" 
+                      tabindex="-1">
+                        <img src="../../../assets/img/bfutbol.png" class="pelota_futbol">
+                        Fútbol
+                      </a>
+                      <ul role="menu" aria-label="Futbol">
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-fnacional.html" tabindex="-1"
+                          onfocus="focusFnacional()" 
+                          onfocusout="focusOutFnacional()"
+                          onmouseover="focusFnacional()" 
+                          onmouseout="focusOutFnacional()">
+                          <img src="../../../assets/img/bfutbol.png" class="pelota_fnacional">
+                            Fútbol Nacional
+                          </a>
+                        </li>            <li role="none">
+                            <a role="menuitem" href="../../futbol/feed-finternacional.html" tabindex="-1"
+                            onfocus="focusfinternacional()" 
+                            onfocusout="focusOutfinternacional()"
+                            onmouseover="focusfinternacional()" 
+                            onmouseout="focusOutfinternacional()">
+                            <img src="../../../assets/img/bfutbol.png" class="pelota_finternacional">
+                              Fútbol Internacional
+                            </a>
+                          </li>
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-fespanol.html" tabindex="-1"
+                          onfocus="focusespanola()" 
+                          onfocusout="focusOutespanola()"
+                          onmouseover="focusespanola()" 
+                          onmouseout="focusOutespanola()">
+                              <img src="../../../assets/img/bfutbol.png" class="pelota_espanola">
+                                Fútbol Español
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-fingles.html" tabindex="-1"
+                          onfocus="focuspremier()" 
+                          onfocusout="focusOutpremier()"
+                          onmouseover="focuspremier()" 
+                          onmouseout="focusOutpremier()">
+                              <img src="../../../assets/img/bfutbol.png" class="pelota_premier">
+                                Fútbol Inglés
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-faleman.html" tabindex="-1"
+                          onfocus="focusalemana()" 
+                          onfocusout="focusOutalemana()"
+                          onmouseover="focusalemana()" 
+                          onmouseout="focusOutalemana()">
+                              <img src="../../../assets/img/bfutbol.png" class="pelota_alemana">
+                                Fútbol Alemán
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-fitaliano.html" tabindex="-1"
+                          onfocus="focusitaliana()" 
+                          onfocusout="focusOutitaliana()"
+                          onmouseover="focusitaliana()" 
+                          onmouseout="focusOutitaliana()">
+                              <img src="../../../assets/img/bfutbol.png" class="pelota_italiana">
+                                Fútbol Italiano
+                          </a>
+                        </li>
+                        <li role="none">
+                          <a role="menuitem" href="../../futbol/feed-champions.html" tabindex="-1"
+                          onfocus="focuschampions()" 
+                          onfocusout="focusOutchampions()"
+                          onmouseover="focuschampions()" 
+                          onmouseout="focusOutchampions()">
+                              <img src="../../../assets/img/bfutbol.png" class="pelota_champions">
+                                Champions league
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </nav>
+</header>
+<main>
+    <div role="article" class="noticias-item" aria-posinset="1">
+    <div class="noticias-details">
+      <div class="noticias-name" id="noticias-name-1">
+        <h1><strong>Venezuela Queda en el Grupo A en el Mundial de China</strong></h1>
+      </div>
+    <div class="noticias-image">
+       <img class="imagen-noticia" src="../imgbasquet/basquet-vzla.jpg">
+       <div class="pie-foto">
+          Foto: Cortesía
+      </div>
+      </div>
+      <div class="pie-noticia">
+          <div class="autor">
+              <p><i>19/03/2019</i></p>
+            <p>Angel Gimenez</p>    
+          </div>
+          <div class="reproductor" >
+            <audio controls id="audio-noticia" tabindex="0">
+              <source src="../audiobasquet/vzla-china-basquet.mp3" type="audio/mp3" >
+            </audio>
+          </div>
+        </div>
+      <div class="noticias-type">
+        <p>    <strong>Shenzhen</strong> fue el escenario donde la selección de baloncesto de Venezuela conoció el camino que le tocará transitar en el <strong>Mundial de China 2019.</strong> Los bombos arrojaron que los criollos conforman el <strong>Grupo A</strong> junto a <strong>Costa de Marfil, Polonia y China.</strong></p>
+        <p>     Para esta Copa Mundial de Baloncesto, que será la más grande de la historia <strong>al participar 32 selecciones</strong> y que se celebrará <strong>del 31 de agosto al 15 de septiembre</strong>, y le tocará disputar los encuentros <strong>en la ciudad de Pekín.</strong></p>
+        <p>     Aunque los venezolanos no lo tendrán fácil, tienen posibilidades de conseguir un boleto a la siguiente fase del torneo. De cada uno de los ocho grupos se clasificarán dos selecciones y luego se hará <strong>otra fase de grupos con los 16 que avancen.</strong> Si Venezuela pasa, le tocaría enfrentarse a los dos clasificados del <strong>Grupo B</strong>, que integran <strong>Rusia, Argentina, Corea del Sur y Nigeria.</strong></p>
+        <p>     Una vez más la gran favorita del evento será <strong>Estados Unidos</strong>, que quedó ubicada en el <strong>Grupo E</strong>, con sede en Shanghái, junto a <strong>Turquía, Republica Checa y Japón.</strong> Por su parte, <strong>España</strong> jugará en el <strong>Grupo C</strong>, que disputará sus duelos en Guangzhou, con <strong>Puerto Rico, Irán y Túnez.</strong> Finalmente, el <strong>“grupo de la muerte” sería el H</strong>, que jugará en Dongguan y que lo conforma <strong>Lituania, Senegal, Canadá y Australia.</strong></p>
+        <p>Aquí un mosaico de como quedaron conformados los grupos:</p>
+      </div>
+      <div class="noticias-image">
+          <img class="imagen-noticia" src="../imgbasquet/vzla-basquet.jpg">
+          <div class="pie-foto">
+             Foto:Cortesia.
+         </div>
+         </div>
+    </div>
+  </div>
+</main>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/5c75dbaaa726ff2eea599d8e/default';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+<div class="skype-button bubble" data-bot-id="EyeSport"></div>
+<div class="skype-chat" data-bot-id="EyeSport"></div>
+
+</body>
+<script>
+  $(document).keydown(function (e) {
+    if (e.keyCode==80) {
+      document.getElementById('audio-noticia').play();
+      return false;     
+    }
+    if (e.keyCode==79) {
+      document.getElementById('audio-noticia').pause();
+      return false;     
+    }  
+  });
+</script>
+<script src="../../../assets/js/main.js"></script>
+<script src="../../../assets/js/sonidosNoticia.js"></script>
+<script src="https://swc.cdn.skype.com/sdk/v1/sdk.min.js"></script>
+</html>

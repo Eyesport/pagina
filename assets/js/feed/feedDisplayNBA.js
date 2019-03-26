@@ -13,7 +13,6 @@ aria.NoticiasData = [
     audio: "audio/vzla-china-basquet.mp3",
     link:"noticias/noticiabase.html"
   }
-
 ];
 
 aria.FeedDisplay = function (feed, fetchData) {
@@ -113,7 +112,6 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('id', 'f' + itemData.id);
   feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')");
   feedItem.setAttribute('onclick',"goToLink(event,'" + itemData.link + "')");
-
 
 
   var itemDetails = document.createElement('div');

@@ -6,13 +6,21 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
+    name: '<strong>Venezuela Queda en el Grupo A en el Mundial de China</strong>',
+    id: 1,
+    type:'texto bla bla bla',
+    image: 'imgbasquet/basquet-vzla.jpg',
+    audio: "audiobasquet/vzla-china-basquet.mp3",
+    link:"noticias/noticiabase.html"
+  },
+  {
     name: 'titulo',
     id: 1,
     type:'texto bla bla bla',
     image: 'img/.jpg',
     audio: "audio/vzla-china-basquet.mp3",
     link:"noticias/noticiabase.html"
-  }
+  },
 
 ];
 
@@ -113,7 +121,6 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('id', 'f' + itemData.id);
   feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')");
   feedItem.setAttribute('onclick',"goToLink(event,'" + itemData.link + "')");
-
 
 
   var itemDetails = document.createElement('div');

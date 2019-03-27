@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: 1,
     type:'    <p> El argentino <strong>Mauro Icardi</strong> volverá a entrenarse con su equipo luego de estar más de un mes apartado del <strong>Inter de Milán</strong>, según lo informó <strong>“La Gazzetta dello Sport”</strong>. El jugador fue apartado por el equipo por las polémicas con su renovación y además las continuas declaraciones aún más polémicas de su esposa <strong>Wanda Nara.</strong></p>',
     image: 'imgfutbol/Icardi-inter.jpg',
-    audio: "audiofutbol/.mp3",//falta
+    audio: "audiofutbol/icardi-inter.mp3",
     link:"noticias/icardi-inter.html"
   },
   {

@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: 1,
     type:'<p>La figura de los <strong>Houston Rockets</strong> está teniendo una temporada increíble que a los demás equipos no le agrada mucho. El escolta está incluso alcanzando récords en la <strong>NBA</strong>, registros de los icónicos <strong>Wilt Chamberlain, Kareem Abdul-Jabbar, Michael Jordan o Kobe Bryant</strong> que parecía que nadie podría volver a igualar. </p>',
     image: 'imgbasquet/Barba-Harden.jpg',
-    audio: "audiobasquet/",
+    audio: "audiobasquet/barba-harden.html",
     link:"noticias/barba-harden.html"
   },
   {

@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: 1,
     type:'   <p> <strong>El Deportivo Lara</strong>  ya tomó su vuelo a <strong>Brasil</strong>  para disputar el encuentro de <strong>Copa Libertadores ante el Cruzeiro en Belo Horizonte.</strong></p>',
     image: 'imgfutbol/deportivo-a-brasil.jpg',
-    audio: "audiofutbol/.mp3",//falta
+    audio: "audiofutbol/deportivo-brasil.mp3",
     link:"noticias/deportivo-brasil.html"
   },
   {

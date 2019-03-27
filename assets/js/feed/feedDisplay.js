@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: '1',
     type:'   <p> <strong>El Deportivo Lara</strong>  ya tomó su vuelo a <strong>Brasil</strong>  para disputar el encuentro de <strong>Copa Libertadores ante el Cruzeiro en Belo Horizonte.</strong></p>',
     image: 'pages/futbol/imgfutbol/deportivo-a-brasil.jpg',
-    audio: "pages/futbol/audiofutbol/",
+    audio: "pages/futbol/audiofutbol/deportivo-brasil.mp3",
     link:"pages/futbol/noticias/deportivo-brasil.html"
   },
   {
@@ -18,7 +18,7 @@ aria.NoticiasData = [
     id: '2',
     type:'     <p> <strong>Venezuela</strong> disputó su primer juego ante <strong>Argentina</strong>  en este 2019, encuentro que se llevó a cabo en el <strong>Wanda Metropolitano</strong>  y quienes asistieron fueron testigos de un partido histórico para la <strong>Selección Nacional</strong>, debido a que, lograron su segunda victoria histórica ante la <strong>albiceleste</strong>  por un marcador de 3 a 1 este viernes 22 de marzo, con los goles de <strong>Salomón Rondón, Jhon Murillo y Josef Martínez</strong> de penal. </p>',
     image: 'pages/futbol/imgfutbol/vinotinto-vence-argentina.jpg',
-    audio: "pages/futbol/audiofutbol/",
+    audio: "pages/futbol/audiofutbol/vzla-gano.mp3",
     link:"pages/futbol/noticias/vinotinto-gano.html"
   },
   {
@@ -26,7 +26,7 @@ aria.NoticiasData = [
     id: '3',
     type:'    <p> <strong>Zamora, Carabobo, Lara y trujillanos</strong> resultaron victoriosos en la jornada sabatina por el <strong>Torneo Apertura de la Liga FUTVE.</strong>  </p>',
     image: 'pages/futbol/imgfutbol/lara-zamora-trujillanos.jpg',
-    audio: "pages/futbol/audiofutbol",
+    audio: "pages/futbol/audiofutbol/lara-zamora.mp3",
     link:"pages/futbol/noticias/lara-zamora-trujillanos.html"
   },
   {
@@ -34,7 +34,7 @@ aria.NoticiasData = [
     id: '4',
     type:'      <p> El toletero criollo <strong>Miguel Cabrera</strong> conectó su cuarto estacazo para la calle en los <strong>Spring Trainning</strong>, este <strong>sábado 23 de marzo</strong>, en una victoria de los <strong>Tigres de Detroit</strong> ante las <strong>Rayas de Tampa Bay</strong> 8 carreras a 7.</p',
     image: 'pages/beisbol/imgbeisbol/Miguel-cabrera-cuarto-cuadrangular.jpg',
-    audio: "pages/beisbol/audiobeisbol",
+    audio: "pages/beisbol/audiobeisbol/cabrera-cuadrangular.mp3",
     link:"pages/beisbol/noticias/cabrera-cuadrangular.html"
   },
   {
@@ -42,7 +42,7 @@ aria.NoticiasData = [
     id: '5',
     type:'    <p> La gran ofensiva del caraqueño <strong>Gleyber Torres</strong>  volvió a despertar en esta <strong>pretemporada</strong>  al conectar su cuarto bambinazo de los <strong>Spring Trainning</strong>, un cuadrangular de 3 carreras en el primer episodio, pero que no pudo evitar la derrota de <strong>los Yankees de Nueva York</strong>  al caer 7 a 3 ante <strong>los Azulejos de Toronto.</strong></p>',
     image: 'pages/beisbol/imgbeisbol/gleyber-torres.jpg',
-    audio: "pages/beisbol/audiobeisbol",
+    audio: "pages/beisbol/audiobeisbol/gleyber.mp3",
     link:"pages/beisbol/noticias/gleyber.html"
   },
   ,
@@ -51,7 +51,7 @@ aria.NoticiasData = [
     id: '10',
     type:'     <p>La figura de los <strong>Houston Rockets</strong> está teniendo una temporada increíble que a los demás equipos no le agrada mucho. El escolta está incluso alcanzando récords en la <strong>NBA</strong>, registros de los icónicos <strong>Wilt Chamberlain, Kareem Abdul-Jabbar, Michael Jordan o Kobe Bryant</strong> que parecía que nadie podría volver a igualar. </p>',
     image: 'pages/basquet/imgbasquet/Barba-Harden.jpg',
-    audio: "pages/basquet/audiobasquet",
+    audio: "pages/basquet/audiobasquet/barba-harden.mp3",
     link:"pages/basquet/noticias/barba-harden.html"
   },
   {
@@ -59,7 +59,7 @@ aria.NoticiasData = [
     id: '6',
     type:'    <p> <strong>Paul Pogba</strong> dio unas declaraciones en rueda de prensa desde <strong>Clairefontaine</strong>, lugar donde está concentrado con la selección de Francia como preparación para el partido de clasificación para la <strong>Eurocopa 2020</strong> ante Moldavia. El jugador del <strong>Manchester United</strong> puso en juego la posibilidad de que haya una intención de fichar por el <strong>Real Madrid</strong>, debido a que, le preguntaron y su respuesta fue “El Madrid es un club de ensueño para todos, uno de los más grandes del mundo.” </p>',
     image: 'pages/futbol/imgfutbol/Pogba-madrid.jpg',
-    audio: "pages/futbol/audiofutbol",
+    audio: "pages/futbol/audiofutbol/pogba-madrid.mp3",
     link:"pages/futbol/noticias/pogba-madrid.html"
   },
   {
@@ -67,7 +67,7 @@ aria.NoticiasData = [
     id: '7',
     type:'    <p> El argentino <strong>Mauro Icardi</strong> volverá a entrenarse con su equipo luego de estar más de un mes apartado del <strong>Inter de Milán</strong>, según lo informó <strong>“La Gazzetta dello Sport”</strong>. El jugador fue apartado por el equipo por las polémicas con su renovación y además las continuas declaraciones aún más polémicas de su esposa <strong>Wanda Nara.</strong></p>',
     image: 'pages/futbol/imgfutbol/Icardi-inter.jpg',
-    audio: "pages/futbol/audiofutbol",
+    audio: "pages/futbol/audiofutbol/icardi-inter.mp3",
     link:"pages/futbol/noticias/icardi-inter.html"
   },
   {
@@ -180,7 +180,7 @@ aria.FeedDisplay.prototype.renderItemData = function (itemData) {
   feedItem.setAttribute('role', 'article');
   feedItem.className = 'noticias-item';
   feedItem.setAttribute('aria-posinset', this.feedSize);
-  feedItem.setAttribute('tabindex', '0');
+  feedItem.setAttribute('tabindex', '-1');
   feedItem.setAttribute('onfocus', "focusArticulo('" + itemData.audio + "')");
   feedItem.setAttribute('id', 'f' + itemData.id);
   feedItem.setAttribute('onkeydown',"goToLink(event,'" + itemData.link + "')");

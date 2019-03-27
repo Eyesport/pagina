@@ -10,8 +10,8 @@ aria.NoticiasData = [
     id: 1,
     type:'     <p> <strong>Venezuela</strong> disputó su primer juego ante <strong>Argentina</strong>  en este 2019, encuentro que se llevó a cabo en el <strong>Wanda Metropolitano</strong>  y quienes asistieron fueron testigos de un partido histórico para la <strong>Selección Nacional</strong>, debido a que, lograron su segunda victoria histórica ante la <strong>albiceleste</strong>  por un marcador de 3 a 1 este viernes 22 de marzo, con los goles de <strong>Salomón Rondón, Jhon Murillo y Josef Martínez</strong> de penal. </p>',
     image: 'imgfutbol/vinotinto-vence-argentina.jpg',
-    audio: "audiofutbol/.mp3",//falta
-    link:"noticias/.html"
+    audio: "audiofutbol/vzla-gano.mp3",
+    link:"noticias/vinotinto-gano.html"
   },
   {
     name: '<strong>La Vinotinto se Enfrentará Ante Argentina</strong> ',

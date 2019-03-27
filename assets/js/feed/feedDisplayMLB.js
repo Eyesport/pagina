@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: 1,
     type:'      <p> El toletero criollo <strong>Miguel Cabrera</strong> conectó su cuarto estacazo para la calle en los <strong>Spring Trainning</strong>, este <strong>sábado 23 de marzo</strong>, en una victoria de los <strong>Tigres de Detroit</strong> ante las <strong>Rayas de Tampa Bay</strong> 8 carreras a 7.</p>',
     image: 'imgbeisbol/Miguel-cabrera-cuarto-cuadrangular.jpg',
-    audio: "audio/vzla-china-basquet.mp3",//faltaa
+    audio: "audiobeisbol/cabrera-cuadrangular.mp3",
     link:"noticias/cabrera-cuadrangular.html"
   },
   {
@@ -18,7 +18,7 @@ aria.NoticiasData = [
     id: 2,
     type:'    <p> La gran ofensiva del caraqueño <strong>Gleyber Torres</strong>  volvió a despertar en esta <strong>pretemporada</strong>  al conectar su cuarto bambinazo de los <strong>Spring Trainning</strong>, un cuadrangular de 3 carreras en el primer episodio, pero que no pudo evitar la derrota de <strong>los Yankees de Nueva York</strong>  al caer 7 a 3 ante <strong>los Azulejos de Toronto.</strong></p>',
     image: 'imgbeisbol/gleyber-torres.jpg',
-    audio: "audio/vzla-china-basquet.mp3",//falta
+    audio: "audiobeisbol/gleyber.mp3",
     link:"noticias/gleyber.html"
   },
   {

@@ -40,7 +40,7 @@ ul[role="menubar"] {
   ul[role="menubar"] [role="separator"]:hover {
 	background-color:#8DC2FF;
 	color: black;
-
+	font-weight: bold;
   }
 	
 	.logo {
@@ -95,4 +95,5 @@ ul[role="menubar"] {
 		height: 25px;
 		display: none;
 	}
-  /* navbar */
+	/* navbar */
+

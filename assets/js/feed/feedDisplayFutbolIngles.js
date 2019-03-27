@@ -10,7 +10,7 @@ aria.NoticiasData = [
     id: 1,
     type:'    <p> <strong>Paul Pogba</strong> dio unas declaraciones en rueda de prensa desde <strong>Clairefontaine</strong>, lugar donde está concentrado con la selección de Francia como preparación para el partido de clasificación para la <strong>Eurocopa 2020</strong> ante Moldavia. El jugador del <strong>Manchester United</strong> puso en juego la posibilidad de que haya una intención de fichar por el <strong>Real Madrid</strong>, debido a que, le preguntaron y su respuesta fue “El Madrid es un club de ensueño para todos, uno de los más grandes del mundo.” </p>',
     image: 'imgfutbol/Pogba-madrid.jpg',
-    audio: "audiofutbol/.mp3",//falta
+    audio: "audiofutbol/pogba-madrid.mp3",
     link:"noticias/pogba-madrid.html"
   },
   {

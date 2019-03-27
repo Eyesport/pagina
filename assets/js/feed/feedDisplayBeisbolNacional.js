@@ -6,12 +6,12 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Cardenales de Lara Campeón Por Quinta Vez en el Béisbol Criollo</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'     <p> <strong>Cardenales de Lara</strong> se hizo con el campeonato de la <strong>Liga Venezolana de Béisbol Profesional (LVBP)</strong> al vencer a los <strong>Leones del Caracas</strong> 4 juegos a 1 en la serie. El equipo crepuscular solo necesitó de 5 juegos para superar a los melenudos en una final histórica del béisbol criollo. </p>',
+    image: 'imgbeisbol/cardenales-campeon.jpg',
+    audio: "audiobeisbol/cardenalescampeon.mp3",
+    link:"noticias/cardenales-campeon.html"
   }
 
 ];

@@ -6,12 +6,20 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Icardi Volverá a las Prácticas con el Inter</strong',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'    <p> El argentino <strong>Mauro Icardi</strong> volverá a entrenarse con su equipo luego de estar más de un mes apartado del <strong>Inter de Milán</strong>, según lo informó <strong>“La Gazzetta dello Sport”</strong>. El jugador fue apartado por el equipo por las polémicas con su renovación y además las continuas declaraciones aún más polémicas de su esposa <strong>Wanda Nara.</strong></p>',
+    image: 'imgfutbol/Icardi-inter.jpg',
+    audio: "audiofutbol/.mp3",//falta
+    link:"noticias/icardi-inter.html"
+  },
+  {
+    name: '<strong>Cristiano con problemas en el tobillo</strong> ',
+    id: 2,
+    type:'    <p> El astro portugués se entrena al margen con el equipo, luego de recibir un golpe en el tobillo que le ha causado molestias desde entonces. Este miércoles debido a las molestias se someterá en las próximas horas a uno controles por un golpe en el tobillo izquierdo. </p>',
+    image: 'imgfutbol/cristiano-tobillo.jpg',
+    audio: "audiofutbol/cr7.mp3",
+    link:"noticias/cristiano-tobillo.html"
   }
 ];
 

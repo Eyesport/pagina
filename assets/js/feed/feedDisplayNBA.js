@@ -6,13 +6,21 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>La “Barba” Harden Imparable</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
-  }
+    type:'<p>La figura de los <strong>Houston Rockets</strong> está teniendo una temporada increíble que a los demás equipos no le agrada mucho. El escolta está incluso alcanzando récords en la <strong>NBA</strong>, registros de los icónicos <strong>Wilt Chamberlain, Kareem Abdul-Jabbar, Michael Jordan o Kobe Bryant</strong> que parecía que nadie podría volver a igualar. </p>',
+    image: 'imgbasquet/Barba-Harden.jpg',
+    audio: "audiobasquet/",
+    link:"noticias/barba-harden.html"
+  },
+  {
+    name: '<strong>Los Lakers siguen en caída cada vez más</strong>',
+    id: 2,
+    type:'<p> En la noche de este lunes <strong>los Lakers de Los Ángeles</strong> terminaron derrotados ante <strong>los Grizzlies de Memphis con score de 110-105</strong>, dejando con menos esperanzas de clasificación a la franquicia angelina. </p',
+    image: 'imgbasquet/lakers.jpg',
+    audio: "audiobasquet/lakers.mp3",
+    link:"noticias/lakers-caida.html"
+  },
 ];
 
 aria.FeedDisplay = function (feed, fetchData) {

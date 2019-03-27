@@ -6,12 +6,12 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>James Rodríguez al frente de la remontada del Bayern Múnich</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'    </p> El <strong>Bayern Munich</strong> avanza paso a paso en la Bundesliga, sin mucha prisa. Luego de la derrota del <strong>Borussia Dortmund 2 a 1 ante el Augsburgo</strong>, en el comienzo de la <strong>jornada 24</strong> de la liga alemana, el equipo dirigido por <strong>Niko Kovac</strong> puede igualarlo en la primera posición de la tabla. Gran parte de esta remontada del equipo bávaro se debe a la titularidad del colombiano <strong>James Rodríguez</strong>, que desde que es titular se ha visto notablemente la mejora del equipo y los aportes del zurdo al plantel.</p>',
+    image: 'imgfutbol/james-bayern.jpg',
+    audio: "audiofutbol/james.mp3",
+    link:"noticias/james-bayern.html"
   }
 
 ];

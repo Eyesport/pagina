@@ -6,134 +6,86 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
+    name: '<strong>Deportivo Lara ya Arrancó a Brasil</strong>',
+    id: '1',
+    type:'   <p> <strong>El Deportivo Lara</strong>  ya tomó su vuelo a <strong>Brasil</strong>  para disputar el encuentro de <strong>Copa Libertadores ante el Cruzeiro en Belo Horizonte.</strong></p>',
+    image: 'pages/futbol/imgfutbol/deportivo-a-brasil.jpg',
+    audio: "pages/futbol/audiofutbol/",
+    link:"pages/futbol/noticias/deportivo-brasil.html"
+  },
+  {
+    name: '<strong>La Vinotinto Impecable Ante Argentina</strong>',
+    id: '2',
+    type:'     <p> <strong>Venezuela</strong> disputó su primer juego ante <strong>Argentina</strong>  en este 2019, encuentro que se llevó a cabo en el <strong>Wanda Metropolitano</strong>  y quienes asistieron fueron testigos de un partido histórico para la <strong>Selección Nacional</strong>, debido a que, lograron su segunda victoria histórica ante la <strong>albiceleste</strong>  por un marcador de 3 a 1 este viernes 22 de marzo, con los goles de <strong>Salomón Rondón, Jhon Murillo y Josef Martínez</strong> de penal. </p>',
+    image: 'pages/futbol/imgfutbol/vinotinto-vence-argentina.jpg',
+    audio: "pages/futbol/audiofutbol/",
+    link:"pages/futbol/noticias/vinotinto-gano.html"
+  },
+  {
+    name: '<strong>Lara, Zamora, Carabobo y Trujillanos triunfaron el sábado</strong>',
+    id: '3',
+    type:'    <p> <strong>Zamora, Carabobo, Lara y trujillanos</strong> resultaron victoriosos en la jornada sabatina por el <strong>Torneo Apertura de la Liga FUTVE.</strong>  </p>',
+    image: 'pages/futbol/imgfutbol/lara-zamora-trujillanos.jpg',
+    audio: "pages/futbol/audiofutbol",
+    link:"pages/futbol/noticias/lara-zamora-trujillanos.html"
+  },
+  {
+    name: '<strong>Miguel Cabrera Logró su Cuarto Cuadrangular de la Pretemporada</strong>',
+    id: '4',
+    type:'      <p> El toletero criollo <strong>Miguel Cabrera</strong> conectó su cuarto estacazo para la calle en los <strong>Spring Trainning</strong>, este <strong>sábado 23 de marzo</strong>, en una victoria de los <strong>Tigres de Detroit</strong> ante las <strong>Rayas de Tampa Bay</strong> 8 carreras a 7.</p',
+    image: 'pages/beisbol/imgbeisbol/Miguel-cabrera-cuarto-cuadrangular.jpg',
+    audio: "pages/beisbol/audiobeisbol",
+    link:"pages/beisbol/noticias/cabrera-cuadrangular.html"
+  },
+  {
+    name: '<strong>Gleyber Torres se Fue por Cuarta Vez a la Calle</strong>',
+    id: '5',
+    type:'    <p> La gran ofensiva del caraqueño <strong>Gleyber Torres</strong>  volvió a despertar en esta <strong>pretemporada</strong>  al conectar su cuarto bambinazo de los <strong>Spring Trainning</strong>, un cuadrangular de 3 carreras en el primer episodio, pero que no pudo evitar la derrota de <strong>los Yankees de Nueva York</strong>  al caer 7 a 3 ante <strong>los Azulejos de Toronto.</strong></p>',
+    image: 'pages/beisbol/imgbeisbol/gleyber-torres.jpg',
+    audio: "pages/beisbol/audiobeisbol",
+    link:"pages/beisbol/noticias/gleyber.html"
+  },
+  ,
+  {
+    name: '<strong>La “Barba” Harden Imparable</strong>',
+    id: '10',
+    type:'     <p>La figura de los <strong>Houston Rockets</strong> está teniendo una temporada increíble que a los demás equipos no le agrada mucho. El escolta está incluso alcanzando récords en la <strong>NBA</strong>, registros de los icónicos <strong>Wilt Chamberlain, Kareem Abdul-Jabbar, Michael Jordan o Kobe Bryant</strong> que parecía que nadie podría volver a igualar. </p>',
+    image: 'pages/basquet/imgbasquet/Barba-Harden.jpg',
+    audio: "pages/basquet/audiobasquet",
+    link:"pages/basquet/noticias/barba-harden.html"
+  },
+  {
+    name: '<strong>Pogba dio un Pequeño guiño al Madrid y a Zidane</strong>',
+    id: '6',
+    type:'    <p> <strong>Paul Pogba</strong> dio unas declaraciones en rueda de prensa desde <strong>Clairefontaine</strong>, lugar donde está concentrado con la selección de Francia como preparación para el partido de clasificación para la <strong>Eurocopa 2020</strong> ante Moldavia. El jugador del <strong>Manchester United</strong> puso en juego la posibilidad de que haya una intención de fichar por el <strong>Real Madrid</strong>, debido a que, le preguntaron y su respuesta fue “El Madrid es un club de ensueño para todos, uno de los más grandes del mundo.” </p>',
+    image: 'pages/futbol/imgfutbol/Pogba-madrid.jpg',
+    audio: "pages/futbol/audiofutbol",
+    link:"pages/futbol/noticias/pogba-madrid.html"
+  },
+  {
+    name: '<strong>Icardi Volverá a las Prácticas con el Inter</strong>',
+    id: '7',
+    type:'    <p> El argentino <strong>Mauro Icardi</strong> volverá a entrenarse con su equipo luego de estar más de un mes apartado del <strong>Inter de Milán</strong>, según lo informó <strong>“La Gazzetta dello Sport”</strong>. El jugador fue apartado por el equipo por las polémicas con su renovación y además las continuas declaraciones aún más polémicas de su esposa <strong>Wanda Nara.</strong></p>',
+    image: 'pages/futbol/imgfutbol/Icardi-inter.jpg',
+    audio: "pages/futbol/audiofutbol",
+    link:"pages/futbol/noticias/icardi-inter.html"
+  },
+  {
     name: '<strong>Brillante Actuación de Lio Messi</strong>',
-    id: 1,
-    type:'El astro argentino del <strong>Futbol Club Barcelona, Lionel Messi</strong>, completó este domingo ante el Real Betis una esplendida actuación por el partido de Liga, donde junto a la genialidad de <strong>Luis Suárez<strong> lograron darle el triunfo al <strong>Barcelona 4 a 1;</strong> quienes son más lideres que nunca a pocas fechas de culminar el campeonato liguero.',
-    image: 'pages/futbol/imgfutbol/messi-betis.jpg',
+    id: '8',
+    type:'   <p>  El astro argentino del <strong>Futbol Club Barcelona, Lionel Messi</strong>, completó este domingo ante el Real Betis una esplendida actuación por el partido de Liga, donde junto a la genialidad de <strong>Luis Suárez<strong> lograron darle el triunfo al <strong>Barcelona 4 a 1;</strong> quienes son más lideres que nunca a pocas fechas de culminar el campeonato liguero. </p>',
+    image: 'pages/futbol/imgfutbol/brillante-messi.jpg',
     audio: "pages/futbol/audiofutbol/messibetis.mp3",
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
+    link:"pages/futbol/noticias/messi-brillante.html"
   },
   {
-    name: '<strong>La Vinotinto se Enfrentará Ante Argentina</strong>',
-    id: 2,
-    type: '<strong>El combinado Vinotinto</strong> se enfrentará este <strong>viernes 22 de marzo</strong> ante la Selección de Argentina en el <strong>Wanda Metropolitano</strong> en la ciudad de Madrid, estadio que le pertenece al <strong>Atlético de Madrid.</strong> Una selección argentina que reincorpora a Messi nuevamente a su grupo de convocados.',
-    image: 'pages/futbol/imgfutbol/Selevinotinto.jpg',
-    audio: "pages/futbol/audiofutbol/vzla-argentina.mp3",
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Messi Regresa con la Selección de Argentina</strong>',
-    id:'10',
-    type:'     <strong>Lionel Messi</strong> vuelve a los entrenamientos con la <strong>Selección Argentina</strong> tras casi 8 meses de haber dejado a la albiceleste, luego de su atropellada salida desde haber dejado la selección cuando quedaron eliminados del <strong>Mundial de Rusia 2018.</strong> El argentino regresa a tono tras haber completado una gran actuación en La Liga ante el Real Betis. Llega para reforzar a una albiceleste que no contará con la incorporación de <strong>Nicolas Otamendi</strong>, tras sufrir un esguince en un encuentro con el Manchester City y de cara a lo que será la próxima edición de la <strong>Copa América de Brasil 2019.</strong>',
-    image:'pages/futbol/imgfutbol/messi-pechofrio.jpg',
-    audio:'pages/futbol/audiofutbol/messi-arg.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name: '<strong>Venezuela Queda en el Grupo A en el Mundial de China</strong>',
-    id: 3,
-    type: '  <strong>Shenzhen</strong> fue el escenario donde la selección de baloncesto de Venezuela conoció el camino que le tocará transitar en el <strong>Mundial de China 2019.</strong> Los bombos arrojaron que los criollos conforman el <strong>Grupo A</strong> junto a <strong>Costa de Marfil, Polonia y China.</strong>',
-    image: 'pages/basquet/imgbasquet/basquet-vzla.jpg',
-    audio: "pages/basquet/audiobasquet/vzla-china-basquet.mp3",
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name: '<strong>Mike Trout: Un contrato fuera de órbita</strong>',
-    id: 4,
-    type:'Lo que se creía una locura de contrato, tal como lo fue el de <strong>Bryce Harper cuando pactó con los Philips de Philadelphia por 13 años y 330 millones de dólares</strong>, se queda corto comparado con el contrato que pudiera llegar a firmar <strong>Mike Trout</strong> al extender su vínculo con los <strong>Angels de los Ángeles de Anaheim</strong>, el cual tiene la gran suma de <strong>430 millones de dólares por 12 años.</strong>',
-    image: 'pages/beisbol/imgbeisbol/contrato-beisbol.jpg',
-    audio: "pages/beisbol/audiobeisbol/miketrout.mp3",
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Todo Listo Para los Cuartos de Final de la UEFA Champions League</strong>',
-    id:'5',
-    type:'     <strong>Luego de completarse todas las jornadas de octavos de final</strong>, se realizó el sorteo para conocer los cruces de <strong>cuartos de final de la Liga de Campeones</strong>, el emparejamiento de equipos se llevó a cabo en la sede de la <strong>UEFA, en Nyon Suiza<strong>, dejando los siguientes duelos: <strong>Ajax – Juventus. Manchester United – Barcelona. Totthenham – Manchester City y Liverpool – Porto.</strong> Estos fueron los cuatro cruces que dejó el sorteo.',
-    image:'pages/futbol/imgfutbol/sorteo-champions.jpg',
-    audio:'pages/futbol/audiofutbol/cuartoschampions.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Manny Machado logra contrato estratosférico con los Padres de San Diego</strong>',
-    id:'6',
-    type:'     El ex <strong>Dodgers de los Angeles</strong> firmó un contrato de 10 años con los <strong>Padres de San Diego por un total de 300 millones de dólares</strong>, el mismo habría establecido un <strong>récord</strong> en cuanto a los contratos a largo plazo y también cómo el contrato mejor pagado siendo un agente libre.',
-    image:'pages/beisbol/imgbeisbol/manny-machado.jpg',
-    audio:'pages/beisbol/audiobeisbol/manny.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>El triplecoronado Miguel Cabrera regresó a la caja de bateo</strong>',
-    id:'7',
-    type:'     <strong>Miguel Cabrera</strong> se reportó a los entrenamientos de los <strong>Tigres de Detroit</strong>, antes del comienzo del <strong>Spring Training</strong> y la nueva campaña de la <strong>Mejor League Béisbol (MLB).</strong> El toletero criollo oriundo de Maracay lució bastante sólido y en condiciones en cada batazo que conectaba, esto tras su operación el pasado junio.',
-    image:'pages/beisbol/imgbeisbol/miguel-cabrera.jpg',
-    audio:'pages/beisbol/audiobeisbol/miguelcabrera.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>La promesa de Zlatan Ibrahimovic</strong>',
-    id:'8',
-    type:'     El astro sueco <strong>Zlatan Ibrahimovic</strong> jugador de <strong>los Angeles Galaxy</strong>, quien comienza su segunda temporada en la <strong>Major League Soccer (MLS) </strong>, afirmó durante la presentación del nuevo uniforme alternativo del equipo que estaba preparado y listo para romper todos los records existentes en la competencia.',
-    image:'pages/futbol/imgfutbol/zlatan.jpg',
-    audio:'pages/futbol/audiofutbol/zlatan.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Guaros de Lara viajaran a Argentina</strong>',
-    id:'9',
-    type:'     El equipo larense de baloncesto, <strong>Guaros de Lara</strong>, viajarán a <strong>Buenos Aires, Argentina</strong>, para encarar la segunda semifinal de la Liga de las Américas, después que <strong>la Federación Internacional de Baloncesto (FIBA) en las Américas</strong>, confirmara a San Lorenzo de Almagro como el anfitrión para esta fase de la competencia, el polideportivo Roberto Pando.',
-    image:'pages/basquet/imgbasquet/guaros-lara.jpg',
-    audio:'pages/basquet/audiobasquet/guaros.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>El Barcelona se impone sobre el Real Madrid en Copa del Rey</strong>',
-    id:'11',
-    type:'     <strong>El FC Barcelona</strong> se impuso ante el <strong>Real Madrid</strong>en el partido de vuelta de la semifinal de <strong>Copa del Rey en el Santiago Bernabéu</strong>, con un marcador de 3 goles por 0, encuentro en el que el equipo merengue parecía lucir superior, sobre todo en el primer tiempo cuando tenía asediada el área del equipo culé, generando muchas oportunidades de gol, pero ninguna concretada con éxito.',
-    image:'pages/futbol/imgfutbol/barca-real.jpg',
-    audio:'pages/futbol/audiofutbol/barcamadrid.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Cardenales de Lara Campeón Por Quinta Vez en el Béisbol Criollo</strong>',
-    id:'12',
-    type:'     <strong>Cardenales de Lara</strong> se hizo con el campeonato de la <strong>Liga Venezolana de Béisbol Profesional (LVBP)</strong> al vencer a los <strong>Leones del Caracas</strong> 4 juegos a 1 en la serie. El equipo crepuscular solo necesitó de 5 juegos para superar a los melenudos en una final histórica del béisbol criollo.',
-    image:'pages/beisbol/imgbeisbol/cardenales-campeon.jpg',
-    audio:'pages/beisbol/audiobeisbol/cardenalescampeon.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Toros de Herrera se coronó campeón de la Serie del Caribe</strong>',
-    id:'13',
-    type:'<strong>La Serie del Caribe 2019</strong> finalizo este domingo (10/02) con la victoria de <strong>Toros de Herrera (Panamá)</strong> 3 carreras por 1 ante <strong>Leñadores de Las Tunas (Cuba)</strong> para apuntarse su segundo título en la historia, el primero lo obtuvo en 1950 con los Yankees de Carta Vieja.',
-    image:'pages/beisbol/imgbeisbol/torosherrera.jpg',
-    audio:'pages/beisbol/audiobeisbol/torosherrera.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Los Lakers siguen en caída cada vez más</strong>',
-    id:'15',
-    type:'     En la noche de este lunes <strong>los Lakers de Los Ángeles</strong> terminaron derrotados ante <strong>los Grizzlies de Memphis con score de 110-105</strong>, dejando con menos esperanzas de clasificación a la franquicia angelina.',
-    image:'pages/basquet/imgbasquet/lakers.jpg',
-    audio:'pages/basquet/audiobasquet/lakers.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>El Tottenham logra milagroso empate ante el Arsenal</strong>',
-    id:'16',
-    type:'     El guardameta francés <strong>Hugo Lloris</strong> fue clave para el empate del Tottenham luego que tapara un penalti al gabonés <strong>Pierre Emerick Aubameyang</strong> en el <strong>minuto 91</strong> del encuentro. Al igual que <strong>Harry Kane</strong> quien a <strong>un cuarto de hora del final del partido pudo marcara el gol del empate</strong> para lograr salvar un punto ante los gunners.',
-    image:'pages/futbol/imgfutbol/totten.jpg',
-    audio:'pages/futbol/audiofutbol/totteham.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
-  },
-  {
-    name:'<strong>Cristiano con problemas en el tobillo</strong>',
-    id:'17',
-    type:'     El astro portugués se entrena al margen con el equipo, luego de recibir un golpe en el tobillo que le ha causado molestias desde entonces. Este miércoles debido a las molestias se someterá en las próximas horas a uno controles por un golpe en el tobillo izquierdo.',
-    image:'pages/futbol/imgfutbol/cristiano-molestias.jpg',
-    audio:'pages/futbol/audiofutbol/cr7.mp3',
-    link:"https://www.youtube.com/watch?v=-n9krkSb-ug"
+    name: '<strong>Messi Regresa con la Selección de Argentina</strong> ',
+    id: '9',
+    type:'   <p>  <strong>Lionel Messi</strong> vuelve a los entrenamientos con la <strong>Selección Argentina</strong> tras casi 8 meses de haber dejado a la albiceleste, luego de su atropellada salida desde haber dejado la selección cuando quedaron eliminados del <strong>Mundial de Rusia 2018.</strong> El argentino regresa a tono tras haber completado una gran actuación en La Liga ante el Real Betis. Llega para reforzar a una albiceleste que no contará con la incorporación de <strong>Nicolas Otamendi</strong>, tras sufrir un esguince en un encuentro con el Manchester City y de cara a lo que será la próxima edición de la <strong>Copa América de Brasil 2019.</strong></p>',
+    image: 'pages/futbol/imgfutbol/messi-vuelve.jpg',
+    audio: "pages/futbol/audiofutbol/messi-arg.mp3",
+    link:"pages/futbol/noticias/messi-regresa.html"
   }
-
 ];
 
 aria.FeedDisplay = function (feed, fetchData) {

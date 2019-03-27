@@ -6,12 +6,20 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Brillante Actuación de Lio Messi</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'<p>  El astro argentino del <strong>Futbol Club Barcelona, Lionel Messi</strong>, completó este domingo ante el Real Betis una esplendida actuación por el partido de Liga, donde junto a la genialidad de <strong>Luis Suárez<strong> lograron darle el triunfo al <strong>Barcelona 4 a 1;</strong> quienes son más lideres que nunca a pocas fechas de culminar el campeonato liguero. </p>',
+    image: 'imgfutbol/brillante-messi.jpg',
+    audio: "audiofutbol/messibetis.mp3",
+    link:"noticias/messi-brillante.html"
+  },
+  {
+    name: '<strong>El Barcelona se impone sobre el Real Madrid en Copa del Rey</strong>',
+    id: 2,
+    type:'   <p>  <strong>El FC Barcelona</strong> se impuso ante el <strong>Real Madrid</strong>en el partido de vuelta de la semifinal de <strong>Copa del Rey en el Santiago Bernabéu</strong>, con un marcador de 3 goles por 0, encuentro en el que el equipo merengue parecía lucir superior, sobre todo en el primer tiempo cuando tenía asediada el área del equipo culé, generando muchas oportunidades de gol, pero ninguna concretada con éxito. </p>',
+    image: 'imgfutbol/barca-madrid.jpg',
+    audio: "audiofutbol/barcamadrid.mp3",
+    link:"noticias/barca-madrid.html"
   }
 ];
 

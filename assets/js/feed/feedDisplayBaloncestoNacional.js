@@ -8,20 +8,19 @@ aria.NoticiasData = [
   {
     name: '<strong>Venezuela Queda en el Grupo A en el Mundial de China</strong>',
     id: 1,
-    type:'texto bla bla bla',
+    type:'    <p>  <strong>Shenzhen</strong> fue el escenario donde la selección de baloncesto de Venezuela conoció el camino que le tocará transitar en el <strong>Mundial de China 2019.</strong> Los bombos arrojaron que los criollos conforman el <strong>Grupo A</strong> junto a <strong>Costa de Marfil, Polonia y China.</strong></p>',
     image: 'imgbasquet/basquet-vzla.jpg',
     audio: "audiobasquet/vzla-china-basquet.mp3",
     link:"noticias/noticiabase.html"
   },
   {
-    name: 'titulo',
-    id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
-  },
-
+    name: '<strong>Guaros de Lara viajaran a Argentina</strong>',
+    id: 2,
+    type:'<p> El equipo larense de baloncesto, <strong>Guaros de Lara</strong>, viajarán a <strong>Buenos Aires, Argentina</strong>, para encarar la segunda semifinal de la Liga de las Américas, después que <strong>la Federación Internacional de Baloncesto (FIBA) en las Américas</strong>, confirmara a San Lorenzo de Almagro como el anfitrión para esta fase de la competencia, el polideportivo Roberto Pando. </p>',
+    image: 'imgbasquet/guaros-lara.jpg',
+    audio: "audiobasquet/guaros.mp3",
+    link:"noticias/guaros-lara.html"
+  }
 ];
 
 aria.FeedDisplay = function (feed, fetchData) {

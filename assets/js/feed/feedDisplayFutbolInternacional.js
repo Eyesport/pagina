@@ -6,13 +6,37 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>La Vinotinto Impecable Ante Argentina</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
-  }
+    type:'     <p> <strong>Venezuela</strong> disputó su primer juego ante <strong>Argentina</strong>  en este 2019, encuentro que se llevó a cabo en el <strong>Wanda Metropolitano</strong>  y quienes asistieron fueron testigos de un partido histórico para la <strong>Selección Nacional</strong>, debido a que, lograron su segunda victoria histórica ante la <strong>albiceleste</strong>  por un marcador de 3 a 1 este viernes 22 de marzo, con los goles de <strong>Salomón Rondón, Jhon Murillo y Josef Martínez</strong> de penal. </p>',
+    image: 'imgfutbol/vinotinto-vence-argentina.jpg',
+    audio: "audiofutbol/.mp3",//falta
+    link:"noticias/.html"
+  },
+  {
+    name: '<strong>La Vinotinto se Enfrentará Ante Argentina</strong> ',
+    id: 2,
+    type:' <p> <strong>El combinado Vinotinto</strong> se enfrentará este <strong>viernes 22 de marzo</strong> ante la Selección de Argentina en el <strong>Wanda Metropolitano</strong> en la ciudad de Madrid, estadio que le pertenece al <strong>Atlético de Madrid.</strong> Una selección argentina que reincorpora a Messi nuevamente a su grupo de convocados. </p>',
+    image: 'imgfutbol/vinotinto-argentina-entrenan.jpg',
+    audio: "audiofutbol/vzla-argentina.mp3",
+    link:"noticias/vinotinto-argentina.html"
+  },
+  {
+    name: '<strong>Messi Regresa con la Selección de Argentina</strong> ',
+    id: 3,
+    type:'   <p>  <strong>Lionel Messi</strong> vuelve a los entrenamientos con la <strong>Selección Argentina</strong> tras casi 8 meses de haber dejado a la albiceleste, luego de su atropellada salida desde haber dejado la selección cuando quedaron eliminados del <strong>Mundial de Rusia 2018.</strong> El argentino regresa a tono tras haber completado una gran actuación en La Liga ante el Real Betis. Llega para reforzar a una albiceleste que no contará con la incorporación de <strong>Nicolas Otamendi</strong>, tras sufrir un esguince en un encuentro con el Manchester City y de cara a lo que será la próxima edición de la <strong>Copa América de Brasil 2019.</strong></p>',
+    image: 'imgfutbol/messi-vuelve.jpg',
+    audio: "audiofutbol/messi-arg.mp3",
+    link:"noticias/messi-regresa.html"
+  },
+  {
+    name: '<strong>La promesa de Zlatan Ibrahimovic</strong>',
+    id: 4,
+    type:'    <p> El astro sueco <strong>Zlatan Ibrahimovic</strong> jugador de <strong>los Angeles Galaxy</strong>, quien comienza su segunda temporada en la <strong>Major League Soccer (MLS) </strong>, afirmó durante la presentación del nuevo uniforme alternativo del equipo que estaba preparado y listo para romper todos los records existentes en la competencia. </p>',
+    image: 'imgfutbol/zlatan-mls.jpg',
+    audio: "audiofutbol/zlatan.mp3",
+    link:"noticias/zlatan.html"
+  },
 ];
 
 aria.FeedDisplay = function (feed, fetchData) {

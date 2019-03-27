@@ -6,12 +6,12 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Toros de Herrera se coronó campeón de la Serie del Caribe</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'<p> <strong>La Serie del Caribe 2019</strong> finalizo este domingo (10/02) con la victoria de <strong>Toros de Herrera (Panamá)</strong> 3 carreras por 1 ante <strong>Leñadores de Las Tunas (Cuba)</strong> para apuntarse su segundo título en la historia, el primero lo obtuvo en 1950 con los Yankees de Carta Vieja. </p>',
+    image: 'imgbeisbol/serie-del-caribe.jpg',
+    audio: "audiobeisbol/torosherrera.mp3",
+    link:"noticias/serie-caribe.html"
   }
 ];
 

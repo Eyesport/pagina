@@ -6,12 +6,20 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Pogba dio un Pequeño guiño al Madrid y a Zidane</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'    <p> <strong>Paul Pogba</strong> dio unas declaraciones en rueda de prensa desde <strong>Clairefontaine</strong>, lugar donde está concentrado con la selección de Francia como preparación para el partido de clasificación para la <strong>Eurocopa 2020</strong> ante Moldavia. El jugador del <strong>Manchester United</strong> puso en juego la posibilidad de que haya una intención de fichar por el <strong>Real Madrid</strong>, debido a que, le preguntaron y su respuesta fue “El Madrid es un club de ensueño para todos, uno de los más grandes del mundo.” </p>',
+    image: 'imgfutbol/Pogba-madrid.jpg',
+    audio: "audiofutbol/.mp3",//falta
+    link:"noticias/pogba-madrid.html"
+  },
+  {
+    name: '<strong>El Tottenham logra milagroso empate ante el Arsenal</strong>',
+    id: 2,
+    type:'    <p> El guardameta francés <strong>Hugo Lloris</strong> fue clave para el empate del Tottenham luego que tapara un penalti al gabonés <strong>Pierre Emerick Aubameyang</strong> en el <strong>minuto 91</strong> del encuentro. Al igual que <strong>Harry Kane</strong> quien a <strong>un cuarto de hora del final del partido pudo marcara el gol del empate</strong> para lograr salvar un punto ante los gunners. </p>',
+    image: 'imgfutbol/Tottenham-arsenal.jpg',
+    audio: "audiofutbol/totteham.mp3",
+    link:"noticias/spurs.html"
   }
 ];
 

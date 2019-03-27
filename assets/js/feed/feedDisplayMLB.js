@@ -6,12 +6,44 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Miguel Cabrera Logró su Cuarto Cuadrangular de la Pretemporada</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
+    type:'      <p> El toletero criollo <strong>Miguel Cabrera</strong> conectó su cuarto estacazo para la calle en los <strong>Spring Trainning</strong>, este <strong>sábado 23 de marzo</strong>, en una victoria de los <strong>Tigres de Detroit</strong> ante las <strong>Rayas de Tampa Bay</strong> 8 carreras a 7.</p>',
+    image: 'imgbeisbol/Miguel-cabrera-cuarto-cuadrangular.jpg',
+    audio: "audio/vzla-china-basquet.mp3",//faltaa
+    link:"noticias/cabrera-cuadrangular.html"
+  },
+  {
+    name: '<strong>Gleyber Torres se Fue por Cuarta Vez a la Calle</strong>',
+    id: 2,
+    type:'    <p> La gran ofensiva del caraqueño <strong>Gleyber Torres</strong>  volvió a despertar en esta <strong>pretemporada</strong>  al conectar su cuarto bambinazo de los <strong>Spring Trainning</strong>, un cuadrangular de 3 carreras en el primer episodio, pero que no pudo evitar la derrota de <strong>los Yankees de Nueva York</strong>  al caer 7 a 3 ante <strong>los Azulejos de Toronto.</strong></p>',
+    image: 'imgbeisbol/gleyber-torres.jpg',
+    audio: "audio/vzla-china-basquet.mp3",//falta
+    link:"noticias/gleyber.html"
+  },
+  {
+    name: '<strong>Mike Trout: Un contrato fuera de órbita</strong>',
+    id: 3,
+    type:'<p> Lo que se creía una locura de contrato, tal como lo fue el de <strong>Bryce Harper cuando pactó con los Philips de Philadelphia por 13 años y 330 millones de dólares</strong>, se queda corto comparado con el contrato que pudiera llegar a firmar <strong>Mike Trout</strong> al extender su vínculo con los <strong>Angels de los Ángeles de Anaheim</strong>, el cual tiene la gran suma de <strong>430 millones de dólares por 12 años.</strong></p>',
+    image: 'imgbeisbol/mike-trout.jpg',
+    audio: "audiobeisbol/mike-trout.mp3",
+    link:"noticias/mike-trout.html"
+  },
+  {
+    name: '<strong>Manny Machado logra contrato estratosférico con los Padres de San Diego</strong>',
+    id: 4,
+    type:'<p> El ex <strong>Dodgers de los Angeles</strong> firmó un contrato de 10 años con los <strong>Padres de San Diego por un total de 300 millones de dólares</strong>, el mismo habría establecido un <strong>récord</strong> en cuanto a los contratos a largo plazo y también cómo el contrato mejor pagado siendo un agente libre. </p>',
+    image: 'imgbeisbol/manny-contrato.jpg',
+    audio: "audiobeisbol/manny.mp3",
     link:"noticias/noticiabase.html"
+  },
+  {
+    name: '<strong>El triplecoronado Miguel Cabrera regresó a la caja de bateo</strong>',
+    id: 5,
+    type:'<p> <strong>Miguel Cabrera</strong> se reportó a los entrenamientos de los <strong>Tigres de Detroit</strong>, antes del comienzo del <strong>Spring Training</strong> y la nueva campaña de la <strong>Mejor League Béisbol (MLB).</strong> El toletero criollo oriundo de Maracay lució bastante sólido y en condiciones en cada batazo que conectaba, esto tras su operación el pasado junio. </p>',
+    image: 'imgbeisbol/miggy-caja-de-bateo.jpg',
+    audio: "audiobeisbol/miguelcabrera.mp3",
+    link:"noticias/cabrera-regresa.html"
   }
 ];
 

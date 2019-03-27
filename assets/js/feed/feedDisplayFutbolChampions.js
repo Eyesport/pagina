@@ -6,12 +6,12 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Todo Listo Para los Cuartos de Final de la UEFA Champions League</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'    <p> <strong>Luego de completarse todas las jornadas de octavos de final</strong>, se realizó el sorteo para conocer los cruces de <strong>cuartos de final de la Liga de Campeones</strong>, el emparejamiento de equipos se llevó a cabo en la sede de la <strong>UEFA, en Nyon Suiza<strong>, dejando los siguientes duelos: <strong>Ajax – Juventus. Manchester United – Barcelona. Totthenham – Manchester City y Liverpool – Porto.</strong> Estos fueron los cuatro cruces que dejó el sorteo. </p>',
+    image: 'imgfutbol/todo-listo-champions.jpg',
+    audio: "audiofutbol/cuartoschampions.mp3",
+    link:"noticias/cuartos-champions.html"
   }
 ];
 

@@ -6,12 +6,20 @@ var aria = aria || {};
 
 aria.NoticiasData = [
   {
-    name: 'titulo',
+    name: '<strong>Deportivo Lara ya Arrancó a Brasil</strong>',
     id: 1,
-    type:'texto bla bla bla',
-    image: 'img/.jpg',
-    audio: "audio/vzla-china-basquet.mp3",
-    link:"noticias/noticiabase.html"
+    type:'   <p> <strong>El Deportivo Lara</strong>  ya tomó su vuelo a <strong>Brasil</strong>  para disputar el encuentro de <strong>Copa Libertadores ante el Cruzeiro en Belo Horizonte.</strong></p>',
+    image: 'imgfutbol/deportivo-a-brasil.jpg',
+    audio: "audiofutbol/.mp3",//falta
+    link:"noticias/deportivo-brasil.html"
+  },
+  {
+    name: '<strong>Lara, Zamora, Carabobo y Trujillanos triunfaron el sábado</strong>',
+    id: 2,
+    type:'    <p> <strong>Zamora, Carabobo, Lara y trujillanos</strong> resultaron victoriosos en la jornada sabatina por el <strong>Torneo Apertura de la Liga FUTVE.</strong>  </p>',
+    image: 'imgfutbol/lara-zamora-trujillanos.jpg',
+    audio: "audiofutbol/.mp3",
+    link:"noticias/lara-zamora-trujillanos.html"
   }
 ];
 
